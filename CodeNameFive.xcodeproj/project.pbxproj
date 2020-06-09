@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003257B11E92F1420B4344D5 /* Pods_CodeNameFiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D22621BE1C1D2BED4479D8F /* Pods_CodeNameFiveTests.framework */; };
+		0927C9CF83A5E9626E79BD55 /* Pods_CodeNameFive_CodeNameFiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A808618CA566D878B3B38E5 /* Pods_CodeNameFive_CodeNameFiveUITests.framework */; };
 		4FF2CC29248FE186001C94D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2CC28248FE186001C94D4 /* AppDelegate.swift */; };
 		4FF2CC2B248FE186001C94D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2CC2A248FE186001C94D4 /* SceneDelegate.swift */; };
 		4FF2CC2D248FE186001C94D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2CC2C248FE186001C94D4 /* ViewController.swift */; };
@@ -16,7 +18,21 @@
 		4FF2CC38248FE188001C94D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC36248FE188001C94D4 /* LaunchScreen.storyboard */; };
 		4FF2CC43248FE188001C94D4 /* CodeNameFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2CC42248FE188001C94D4 /* CodeNameFiveTests.swift */; };
 		4FF2CC4E248FE188001C94D4 /* CodeNameFiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2CC4D248FE188001C94D4 /* CodeNameFiveUITests.swift */; };
-		4FF2CC5F248FE8B0001C94D4 /* RoboType Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC5E248FE8B0001C94D4 /* RoboType Regular.ttf */; };
+		4FF2CC6E249028E5001C94D4 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC62249028E3001C94D4 /* Roboto-Italic.ttf */; };
+		4FF2CC6F249028E5001C94D4 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC63249028E4001C94D4 /* Roboto-Medium.ttf */; };
+		4FF2CC70249028E5001C94D4 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC64249028E4001C94D4 /* Roboto-MediumItalic.ttf */; };
+		4FF2CC71249028E5001C94D4 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC65249028E4001C94D4 /* Roboto-Regular.ttf */; };
+		4FF2CC72249028E5001C94D4 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC66249028E4001C94D4 /* Roboto-ThinItalic.ttf */; };
+		4FF2CC73249028E5001C94D4 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC67249028E4001C94D4 /* Roboto-Thin.ttf */; };
+		4FF2CC74249028E5001C94D4 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC68249028E4001C94D4 /* Roboto-LightItalic.ttf */; };
+		4FF2CC75249028E5001C94D4 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC69249028E4001C94D4 /* Roboto-Light.ttf */; };
+		4FF2CC76249028E5001C94D4 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC6A249028E4001C94D4 /* Roboto-BlackItalic.ttf */; };
+		4FF2CC77249028E5001C94D4 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC6B249028E5001C94D4 /* Roboto-Black.ttf */; };
+		4FF2CC78249028E5001C94D4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC6C249028E5001C94D4 /* Roboto-Bold.ttf */; };
+		4FF2CC79249028E5001C94D4 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC6D249028E5001C94D4 /* Roboto-BoldItalic.ttf */; };
+		4FF2CC7C24903649001C94D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2CC7B24903649001C94D4 /* Extensions.swift */; };
+		4FF2CC7E24904427001C94D4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2CC7D24904427001C94D4 /* Helper.swift */; };
+		D4CFCC1D0AC6F5C72B870521 /* Pods_CodeNameFive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8684A7E5602D8FDC3B9D9503 /* Pods_CodeNameFive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3031AA3DEA780A53CEE6B8F2 /* Pods-CodeNameFive-CodeNameFiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeNameFive-CodeNameFiveUITests.release.xcconfig"; path = "Target Support Files/Pods-CodeNameFive-CodeNameFiveUITests/Pods-CodeNameFive-CodeNameFiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		347561FC1D1D0FCABABC5FD9 /* Pods-CodeNameFiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeNameFiveTests.release.xcconfig"; path = "Target Support Files/Pods-CodeNameFiveTests/Pods-CodeNameFiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A808618CA566D878B3B38E5 /* Pods_CodeNameFive_CodeNameFiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeNameFive_CodeNameFiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0E06F0A026FD27A1EFAE46 /* Pods-CodeNameFive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeNameFive.release.xcconfig"; path = "Target Support Files/Pods-CodeNameFive/Pods-CodeNameFive.release.xcconfig"; sourceTree = "<group>"; };
+		4B3DED8491B806351CE4A134 /* Pods-CodeNameFive-CodeNameFiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeNameFive-CodeNameFiveUITests.debug.xcconfig"; path = "Target Support Files/Pods-CodeNameFive-CodeNameFiveUITests/Pods-CodeNameFive-CodeNameFiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FF2CC25248FE186001C94D4 /* CodeNameFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeNameFive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF2CC28248FE186001C94D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF2CC2A248FE186001C94D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +73,24 @@
 		4FF2CC49248FE188001C94D4 /* CodeNameFiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeNameFiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF2CC4D248FE188001C94D4 /* CodeNameFiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNameFiveUITests.swift; sourceTree = "<group>"; };
 		4FF2CC4F248FE188001C94D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FF2CC5E248FE8B0001C94D4 /* RoboType Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RoboType Regular.ttf"; sourceTree = "<group>"; };
+		4FF2CC62249028E3001C94D4 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		4FF2CC63249028E4001C94D4 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		4FF2CC64249028E4001C94D4 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4FF2CC65249028E4001C94D4 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		4FF2CC66249028E4001C94D4 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4FF2CC67249028E4001C94D4 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		4FF2CC68249028E4001C94D4 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		4FF2CC69249028E4001C94D4 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		4FF2CC6A249028E4001C94D4 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4FF2CC6B249028E5001C94D4 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		4FF2CC6C249028E5001C94D4 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		4FF2CC6D249028E5001C94D4 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4FF2CC7B24903649001C94D4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4FF2CC7D24904427001C94D4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		8684A7E5602D8FDC3B9D9503 /* Pods_CodeNameFive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeNameFive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D22621BE1C1D2BED4479D8F /* Pods_CodeNameFiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeNameFiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E262CBAF2B74A75E8A5A8C /* Pods-CodeNameFiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeNameFiveTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeNameFiveTests/Pods-CodeNameFiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE02DF29FC69A461B12BA501 /* Pods-CodeNameFive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeNameFive.debug.xcconfig"; path = "Target Support Files/Pods-CodeNameFive/Pods-CodeNameFive.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CFCC1D0AC6F5C72B870521 /* Pods_CodeNameFive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003257B11E92F1420B4344D5 /* Pods_CodeNameFiveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0927C9CF83A5E9626E79BD55 /* Pods_CodeNameFive_CodeNameFiveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +124,7 @@
 		4FF2CC1C248FE186001C94D4 = {
 			isa = PBXGroup;
 			children = (
+				4FF2CC7A24903630001C94D4 /* Extension */,
 				4FF2CC61248FE8ED001C94D4 /* Controllers */,
 				4FF2CC60248FE8E3001C94D4 /* View */,
 				4FF2CC5D248FE898001C94D4 /* Fonts */,
@@ -90,6 +132,8 @@
 				4FF2CC41248FE188001C94D4 /* CodeNameFiveTests */,
 				4FF2CC4C248FE188001C94D4 /* CodeNameFiveUITests */,
 				4FF2CC26248FE186001C94D4 /* Products */,
+				BE75FB95C207AE5815C4B18E /* Pods */,
+				DC86D239713A597F6601D894 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,7 +181,18 @@
 		4FF2CC5D248FE898001C94D4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				4FF2CC5E248FE8B0001C94D4 /* RoboType Regular.ttf */,
+				4FF2CC6B249028E5001C94D4 /* Roboto-Black.ttf */,
+				4FF2CC6A249028E4001C94D4 /* Roboto-BlackItalic.ttf */,
+				4FF2CC6C249028E5001C94D4 /* Roboto-Bold.ttf */,
+				4FF2CC6D249028E5001C94D4 /* Roboto-BoldItalic.ttf */,
+				4FF2CC62249028E3001C94D4 /* Roboto-Italic.ttf */,
+				4FF2CC69249028E4001C94D4 /* Roboto-Light.ttf */,
+				4FF2CC68249028E4001C94D4 /* Roboto-LightItalic.ttf */,
+				4FF2CC63249028E4001C94D4 /* Roboto-Medium.ttf */,
+				4FF2CC64249028E4001C94D4 /* Roboto-MediumItalic.ttf */,
+				4FF2CC65249028E4001C94D4 /* Roboto-Regular.ttf */,
+				4FF2CC67249028E4001C94D4 /* Roboto-Thin.ttf */,
+				4FF2CC66249028E4001C94D4 /* Roboto-ThinItalic.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -158,6 +213,38 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		4FF2CC7A24903630001C94D4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4FF2CC7B24903649001C94D4 /* Extensions.swift */,
+				4FF2CC7D24904427001C94D4 /* Helper.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BE75FB95C207AE5815C4B18E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE02DF29FC69A461B12BA501 /* Pods-CodeNameFive.debug.xcconfig */,
+				3D0E06F0A026FD27A1EFAE46 /* Pods-CodeNameFive.release.xcconfig */,
+				4B3DED8491B806351CE4A134 /* Pods-CodeNameFive-CodeNameFiveUITests.debug.xcconfig */,
+				3031AA3DEA780A53CEE6B8F2 /* Pods-CodeNameFive-CodeNameFiveUITests.release.xcconfig */,
+				A1E262CBAF2B74A75E8A5A8C /* Pods-CodeNameFiveTests.debug.xcconfig */,
+				347561FC1D1D0FCABABC5FD9 /* Pods-CodeNameFiveTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC86D239713A597F6601D894 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8684A7E5602D8FDC3B9D9503 /* Pods_CodeNameFive.framework */,
+				3A808618CA566D878B3B38E5 /* Pods_CodeNameFive_CodeNameFiveUITests.framework */,
+				9D22621BE1C1D2BED4479D8F /* Pods_CodeNameFiveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FF2CC52248FE188001C94D4 /* Build configuration list for PBXNativeTarget "CodeNameFive" */;
 			buildPhases = (
+				C5B5338C7A22DA7D650855C2 /* [CP] Check Pods Manifest.lock */,
 				4FF2CC21248FE186001C94D4 /* Sources */,
 				4FF2CC22248FE186001C94D4 /* Frameworks */,
 				4FF2CC23248FE186001C94D4 /* Resources */,
+				4BC6EECF2C41E01F74FAA3B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FF2CC55248FE188001C94D4 /* Build configuration list for PBXNativeTarget "CodeNameFiveTests" */;
 			buildPhases = (
+				AD64674C27960491F46ADF04 /* [CP] Check Pods Manifest.lock */,
 				4FF2CC3A248FE188001C94D4 /* Sources */,
 				4FF2CC3B248FE188001C94D4 /* Frameworks */,
 				4FF2CC3C248FE188001C94D4 /* Resources */,
@@ -200,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FF2CC58248FE188001C94D4 /* Build configuration list for PBXNativeTarget "CodeNameFiveUITests" */;
 			buildPhases = (
+				4153A55F24AF2D767591FD81 /* [CP] Check Pods Manifest.lock */,
 				4FF2CC45248FE188001C94D4 /* Sources */,
 				4FF2CC46248FE188001C94D4 /* Frameworks */,
 				4FF2CC47248FE188001C94D4 /* Resources */,
+				659B181CDA0524D0A6A4FF09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,10 +354,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF2CC78249028E5001C94D4 /* Roboto-Bold.ttf in Resources */,
+				4FF2CC6F249028E5001C94D4 /* Roboto-Medium.ttf in Resources */,
+				4FF2CC71249028E5001C94D4 /* Roboto-Regular.ttf in Resources */,
+				4FF2CC79249028E5001C94D4 /* Roboto-BoldItalic.ttf in Resources */,
+				4FF2CC74249028E5001C94D4 /* Roboto-LightItalic.ttf in Resources */,
+				4FF2CC75249028E5001C94D4 /* Roboto-Light.ttf in Resources */,
 				4FF2CC38248FE188001C94D4 /* LaunchScreen.storyboard in Resources */,
+				4FF2CC6E249028E5001C94D4 /* Roboto-Italic.ttf in Resources */,
+				4FF2CC72249028E5001C94D4 /* Roboto-ThinItalic.ttf in Resources */,
+				4FF2CC76249028E5001C94D4 /* Roboto-BlackItalic.ttf in Resources */,
 				4FF2CC35248FE188001C94D4 /* Assets.xcassets in Resources */,
-				4FF2CC5F248FE8B0001C94D4 /* RoboType Regular.ttf in Resources */,
+				4FF2CC77249028E5001C94D4 /* Roboto-Black.ttf in Resources */,
+				4FF2CC70249028E5001C94D4 /* Roboto-MediumItalic.ttf in Resources */,
 				4FF2CC30248FE186001C94D4 /* Main.storyboard in Resources */,
+				4FF2CC73249028E5001C94D4 /* Roboto-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,15 +388,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4153A55F24AF2D767591FD81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeNameFive-CodeNameFiveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BC6EECF2C41E01F74FAA3B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeNameFive/Pods-CodeNameFive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeNameFive/Pods-CodeNameFive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeNameFive/Pods-CodeNameFive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		659B181CDA0524D0A6A4FF09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeNameFive-CodeNameFiveUITests/Pods-CodeNameFive-CodeNameFiveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeNameFive-CodeNameFiveUITests/Pods-CodeNameFive-CodeNameFiveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeNameFive-CodeNameFiveUITests/Pods-CodeNameFive-CodeNameFiveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD64674C27960491F46ADF04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeNameFiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5B5338C7A22DA7D650855C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeNameFive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FF2CC21248FE186001C94D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FF2CC7C24903649001C94D4 /* Extensions.swift in Sources */,
 				4FF2CC2D248FE186001C94D4 /* ViewController.swift in Sources */,
 				4FF2CC29248FE186001C94D4 /* AppDelegate.swift in Sources */,
 				4FF2CC2B248FE186001C94D4 /* SceneDelegate.swift in Sources */,
 				4FF2CC33248FE186001C94D4 /* CodeNameFive.xcdatamodeld in Sources */,
+				4FF2CC7E24904427001C94D4 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +672,7 @@
 		};
 		4FF2CC53248FE188001C94D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE02DF29FC69A461B12BA501 /* Pods-CodeNameFive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +691,7 @@
 		};
 		4FF2CC54248FE188001C94D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0E06F0A026FD27A1EFAE46 /* Pods-CodeNameFive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -500,6 +710,7 @@
 		};
 		4FF2CC56248FE188001C94D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E262CBAF2B74A75E8A5A8C /* Pods-CodeNameFiveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +733,7 @@
 		};
 		4FF2CC57248FE188001C94D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347561FC1D1D0FCABABC5FD9 /* Pods-CodeNameFiveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +756,7 @@
 		};
 		4FF2CC59248FE188001C94D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3DED8491B806351CE4A134 /* Pods-CodeNameFive-CodeNameFiveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,6 +777,7 @@
 		};
 		4FF2CC5A248FE188001C94D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3031AA3DEA780A53CEE6B8F2 /* Pods-CodeNameFive-CodeNameFiveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
