@@ -31,6 +31,7 @@
 		4FF2CC78249028E5001C94D4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC6C249028E5001C94D4 /* Roboto-Bold.ttf */; };
 		4FF2CC79249028E5001C94D4 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF2CC6D249028E5001C94D4 /* Roboto-BoldItalic.ttf */; };
 		4FF2CC7C24903649001C94D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2CC7B24903649001C94D4 /* Extensions.swift */; };
+		4FF2CC80249047E2001C94D4 /* SettingVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF2CC7F249047E2001C94D4 /* SettingVCTableViewController.swift */; };
 		D4CFCC1D0AC6F5C72B870521 /* Pods_CodeNameFive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8684A7E5602D8FDC3B9D9503 /* Pods_CodeNameFive.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		4FF2CC6C249028E5001C94D4 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		4FF2CC6D249028E5001C94D4 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		4FF2CC7B24903649001C94D4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4FF2CC7F249047E2001C94D4 /* SettingVCTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVCTableViewController.swift; sourceTree = "<group>"; };
 		8684A7E5602D8FDC3B9D9503 /* Pods_CodeNameFive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeNameFive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D22621BE1C1D2BED4479D8F /* Pods_CodeNameFiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeNameFiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E262CBAF2B74A75E8A5A8C /* Pods-CodeNameFiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeNameFiveTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeNameFiveTests/Pods-CodeNameFiveTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				4FF2CC2C248FE186001C94D4 /* ViewController.swift */,
+				4FF2CC7F249047E2001C94D4 /* SettingVCTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -496,6 +499,7 @@
 				4FF2CC7C24903649001C94D4 /* Extensions.swift in Sources */,
 				4FF2CC2D248FE186001C94D4 /* ViewController.swift in Sources */,
 				4FF2CC29248FE186001C94D4 /* AppDelegate.swift in Sources */,
+				4FF2CC80249047E2001C94D4 /* SettingVCTableViewController.swift in Sources */,
 				4FF2CC2B248FE186001C94D4 /* SceneDelegate.swift in Sources */,
 				4FF2CC33248FE186001C94D4 /* CodeNameFive.xcdatamodeld in Sources */,
 			);

@@ -12,13 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        FontBlaster.blast() { (fonts) in
-          print(fonts) // fonts is an array of Strings containing font names
-        }
         
     }
-
-
 }
 
