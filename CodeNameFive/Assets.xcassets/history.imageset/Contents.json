@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "history.png",
+      "filename" : "personicon-5.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "personicon-6.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "personicon-7.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
