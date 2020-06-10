@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import FontBlaster
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
