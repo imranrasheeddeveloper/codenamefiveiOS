@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "personicon.png",
+      "filename" : "settings.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "personicon-3.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "personicon-4.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

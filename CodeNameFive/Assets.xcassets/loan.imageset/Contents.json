@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "earn icon.png",
+      "filename" : "loan.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "earn icon-2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "earn icon-3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

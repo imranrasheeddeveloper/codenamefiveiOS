@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "help-2.png",
+      "filename" : "help.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "help-3.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "help-4.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
